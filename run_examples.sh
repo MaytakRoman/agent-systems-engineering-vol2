@@ -1,0 +1,46 @@
+#!/bin/sh
+set -eu
+cd "$(dirname "$0")"
+PYTHON="${PYTHON:-python3}"
+"$PYTHON" framework.py
+"$PYTHON" access_gate.py
+"$PYTHON" resume_memory.py
+"$PYTHON" validate_request.py
+"$PYTHON" search_adapter.py
+"$PYTHON" intent_store.py
+"$PYTHON" canonical_profile.py
+"$PYTHON" retry_budget.py
+"$PYTHON" versioned_write.py
+"$PYTHON" repeat_guard.py
+"$PYTHON" plan_order.py
+"$PYTHON" shortest_path.py
+"$PYTHON" reasoning_cost.py
+"$PYTHON" invalidate.py
+"$PYTHON" snapshot_fields.py
+"$PYTHON" memory_filter.py
+"$PYTHON" memory_checks.py
+"$PYTHON" handoff_check.py
+"$PYTHON" orchestration_cost.py
+"$PYTHON" schedule.py
+"$PYTHON" delivery.py
+"$PYTHON" outbox.py
+"$PYTHON" short_runner.py
+"$PYTHON" batch_before.py
+"$PYTHON" batch_after.py
+"$PYTHON" batch_checks.py
+"$PYTHON" batch_properties.py
+"$PYTHON" batch_manifest.py
+"$PYTHON" allowed_path.py
+"$PYTHON" stale_action.py
+"$PYTHON" ui_model.py
+"$PYTHON" ui_checks.py
+"$PYTHON" coordinates.py
+"$PYTHON" qlearning.py
+"$PYTHON" learning.py
+"$PYTHON" learning_checks.py
+"$PYTHON" audit_chain.py
+"$PYTHON" security.py
+"$PYTHON" fault_matrix.py
+"$PYTHON" economics.py
+"$PYTHON" enterprise_case.py
+"$PYTHON" framework_checks.py

@@ -1,0 +1,329 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "runs": [
+    {
+      "file": "framework.py",
+      "returncode": 0,
+      "seconds": 0.172,
+      "stdout": "Принято после согласования; эффектов: 1\n",
+      "stderr": ""
+    },
+    {
+      "file": "access_gate.py",
+      "returncode": 0,
+      "seconds": 0.086,
+      "stdout": "Допуск: 4/4 проверки\n",
+      "stderr": ""
+    },
+    {
+      "file": "allowed_path.py",
+      "returncode": 0,
+      "seconds": 0.1763,
+      "stdout": "Внутренний путь принят; выход отклонён\n",
+      "stderr": ""
+    },
+    {
+      "file": "audit_chain.py",
+      "returncode": 0,
+      "seconds": 0.1271,
+      "stdout": "Изменение и усечение выявлены по доверенному концу цепочки\n",
+      "stderr": ""
+    },
+    {
+      "file": "batch_after.py",
+      "returncode": 0,
+      "seconds": 0.0586,
+      "stdout": "После исправления: атомарность строки сохранена\n",
+      "stderr": ""
+    },
+    {
+      "file": "batch_before.py",
+      "returncode": 0,
+      "seconds": 0.0319,
+      "stdout": "До исправления: воспроизведён частичный эффект\n",
+      "stderr": ""
+    },
+    {
+      "file": "batch_checks.py",
+      "returncode": 0,
+      "seconds": 0.0376,
+      "stdout": "Отрицательный контроль: дефект выявлен\nПосле исправления: 8, проверки пройдены\n",
+      "stderr": ""
+    },
+    {
+      "file": "batch_manifest.py",
+      "returncode": 0,
+      "seconds": 0.2133,
+      "stdout": "Манифест: исходных файлов – 4\n",
+      "stderr": ""
+    },
+    {
+      "file": "batch_properties.py",
+      "returncode": 0,
+      "seconds": 0.0624,
+      "stdout": "Пакетов проверено: 259; эталон, порядок и разбиение согласованы\n",
+      "stderr": ""
+    },
+    {
+      "file": "canonical_profile.py",
+      "returncode": 0,
+      "seconds": 0.0717,
+      "stdout": "Отпечаток: порядок ключей не влияет\n",
+      "stderr": ""
+    },
+    {
+      "file": "coordinates.py",
+      "returncode": 0,
+      "seconds": 0.0262,
+      "stdout": "Преобразование координат и границы проверены\n",
+      "stderr": ""
+    },
+    {
+      "file": "delivery.py",
+      "returncode": 0,
+      "seconds": 0.0597,
+      "stdout": "Дубликаты и конфликты проверены\n",
+      "stderr": ""
+    },
+    {
+      "file": "economics.py",
+      "returncode": 0,
+      "seconds": 0.0731,
+      "stdout": "{\"parameters\": {\"coverage\": 0.75, \"exception_minutes\": 3.0, \"hourly\": 900.0, \"investment\": 480000.0, \"manual_minutes\": 12.0, \"review_minutes\": 2.0, \"run_price\": 7.0, \"support\": 45000.0, \"volume\": 2400}, \"result\": {\"active_minutes_per_task\": 5.25, \"automated\": 250800.0, \"break_even_coverage\": 0.3628205128205128, \"manual\": 432000.0, \"monthly_difference\": 181200.0, \"simple_payback_months\": 2.6490066225165565}}\n",
+      "stderr": ""
+    },
+    {
+      "file": "enterprise_case.py",
+      "returncode": 0,
+      "seconds": 0.105,
+      "stdout": "{\"accepted\": 1, \"need_info\": 1, \"rejected\": 3}\n",
+      "stderr": ""
+    },
+    {
+      "file": "fault_matrix.py",
+      "returncode": 0,
+      "seconds": 0.0945,
+      "stdout": "Две точки отказа, базовый сценарий и три повтора: пройдены\n",
+      "stderr": ""
+    },
+    {
+      "file": "framework_checks.py",
+      "returncode": 0,
+      "seconds": 0.0982,
+      "stdout": "Повтор, конфликт, восстановление и отрицательный контроль: пройдены\n",
+      "stderr": ""
+    },
+    {
+      "file": "handoff_check.py",
+      "returncode": 0,
+      "seconds": 0.0331,
+      "stdout": "Проверка передачи пройдена\n",
+      "stderr": ""
+    },
+    {
+      "file": "intent_store.py",
+      "returncode": 0,
+      "seconds": 0.0459,
+      "stdout": "SQLite: один проект при повторе\n",
+      "stderr": ""
+    },
+    {
+      "file": "invalidate.py",
+      "returncode": 0,
+      "seconds": 0.0978,
+      "stdout": "Аннулированы: ['analysis', 'draft', 'history', 'request', 'save']\n",
+      "stderr": ""
+    },
+    {
+      "file": "learning.py",
+      "returncode": 0,
+      "seconds": 0.0567,
+      "stdout": "{\"aggregated_states\": 4, \"aggregated_success\": 30, \"baseline_states\": 3, \"baseline_success\": 20, \"episodes\": 30}\n",
+      "stderr": ""
+    },
+    {
+      "file": "learning_checks.py",
+      "returncode": 0,
+      "seconds": 0.0562,
+      "stdout": "Покрытие, порядок и отрицательный контроль проверены\n",
+      "stderr": ""
+    },
+    {
+      "file": "memory_checks.py",
+      "returncode": 0,
+      "seconds": 0.0491,
+      "stdout": "Сценарии памяти: 8, проверка пройдена\n",
+      "stderr": ""
+    },
+    {
+      "file": "memory_filter.py",
+      "returncode": 0,
+      "seconds": 0.0299,
+      "stdout": "Допустимое ранжирование: ['A5', 'A2']\n",
+      "stderr": ""
+    },
+    {
+      "file": "orchestration_cost.py",
+      "returncode": 0,
+      "seconds": 0.0225,
+      "stdout": "Последовательное время, с: 19\nПараллельное время, с: 12\nУскорение: 1.583\nУсловные цены: 9 10\n",
+      "stderr": ""
+    },
+    {
+      "file": "outbox.py",
+      "returncode": 0,
+      "seconds": 0.0555,
+      "stdout": "Сохранены один результат и одно уведомление\n",
+      "stderr": ""
+    },
+    {
+      "file": "plan_order.py",
+      "returncode": 0,
+      "seconds": 0.0323,
+      "stdout": "Граф: ['identify', 'history', 'manual', 'draft', 'save']\n",
+      "stderr": ""
+    },
+    {
+      "file": "qlearning.py",
+      "returncode": 0,
+      "seconds": 0.201,
+      "stdout": "[{\"goal_reward\": {\"accepted\": 20, \"calls\": 40, \"episodes\": 20, \"truncated\": 0}, \"read_bonus\": {\"accepted\": 0, \"calls\": 400, \"episodes\": 20, \"truncated\": 20}, \"seed\": 11}, {\"goal_reward\": {\"accepted\": 20, \"calls\": 40, \"episodes\": 20, \"truncated\": 0}, \"read_bonus\": {\"accepted\": 0, \"calls\": 400, \"episodes\": 20, \"truncated\": 20}, \"seed\": 23}, {\"goal_reward\": {\"accepted\": 20, \"calls\": 40, \"episodes\": 20, \"truncated\": 0}, \"read_bonus\": {\"accepted\": 0, \"calls\": 400, \"episodes\": 20, \"truncated\": 20}, \"seed\": 47}]\n",
+      "stderr": ""
+    },
+    {
+      "file": "reasoning_cost.py",
+      "returncode": 0,
+      "seconds": 0.0444,
+      "stdout": "Дешёвый: 57.0\nДорогой: 57.2\nИдеальная селекция: 43.2\n",
+      "stderr": ""
+    },
+    {
+      "file": "repeat_guard.py",
+      "returncode": 0,
+      "seconds": 0.0418,
+      "stdout": "Прогресс: повтор ограничен, новый снимок разрешён\n",
+      "stderr": ""
+    },
+    {
+      "file": "resume_memory.py",
+      "returncode": 0,
+      "seconds": 0.0454,
+      "stdout": "Возобновление: один эффект и конфликт обнаружен\n",
+      "stderr": ""
+    },
+    {
+      "file": "retry_budget.py",
+      "returncode": 0,
+      "seconds": 0.0622,
+      "stdout": "Повторы: ожидание 7.5 с, верхняя оценка 17.5 с\n",
+      "stderr": ""
+    },
+    {
+      "file": "schedule.py",
+      "returncode": 0,
+      "seconds": 0.0338,
+      "stdout": "Длительности: (4, 7, 5) Время: [16, 9, 7]\nДлительности: (4, 15, 5) Время: [24, 15, 15]\n",
+      "stderr": ""
+    },
+    {
+      "file": "search_adapter.py",
+      "returncode": 0,
+      "seconds": 0.037,
+      "stdout": "Адаптер: неполный результат сохранён\n",
+      "stderr": ""
+    },
+    {
+      "file": "security.py",
+      "returncode": 0,
+      "seconds": 0.0972,
+      "stdout": "{\"forbidden_blocked\": 5, \"lawful_allowed\": 1, \"negative_control_unauthorized\": 1, \"proposals\": 6}\n",
+      "stderr": ""
+    },
+    {
+      "file": "short_runner.py",
+      "returncode": 0,
+      "seconds": 0.1238,
+      "stdout": "Проверка запуска пройдена\n",
+      "stderr": ""
+    },
+    {
+      "file": "shortest_path.py",
+      "returncode": 0,
+      "seconds": 0.0376,
+      "stdout": "Поиск: оптимальная цена 5, путь start → B → goal\n",
+      "stderr": ""
+    },
+    {
+      "file": "snapshot_fields.py",
+      "returncode": 0,
+      "seconds": 0.0506,
+      "stdout": "Защищённый исход сохранён\n",
+      "stderr": ""
+    },
+    {
+      "file": "stale_action.py",
+      "returncode": 0,
+      "seconds": 0.0292,
+      "stdout": "Устаревшее действие отклонено; обновление принято\n",
+      "stderr": ""
+    },
+    {
+      "file": "ui_checks.py",
+      "returncode": 0,
+      "seconds": 0.0427,
+      "stdout": "Интерфейс: согласование, дедупликация и конфликт проверены\n",
+      "stderr": ""
+    },
+    {
+      "file": "ui_model.py",
+      "returncode": 0,
+      "seconds": 0.0814,
+      "stdout": "Модель формы готова\n",
+      "stderr": ""
+    },
+    {
+      "file": "validate_request.py",
+      "returncode": 0,
+      "seconds": 0.0401,
+      "stdout": "Схема: 5/5 проверок\n",
+      "stderr": ""
+    },
+    {
+      "file": "versioned_write.py",
+      "returncode": 0,
+      "seconds": 0.0535,
+      "stdout": "Версии: устаревшая запись отклонена\n",
+      "stderr": ""
+    }
+  ],
+  "json_files": [
+    {
+      "file": "draft_schema.json",
+      "valid_json": true,
+      "sha256": "4e212fc0c55bfe20bfffcd158e5708519954063118d97c9d549e9ce60f21d8f3"
+    },
+    {
+      "file": "operation_schema.json",
+      "valid_json": true,
+      "sha256": "c58c270f1dea7e502cddd223bd91436622dbef1b04c55bb37b4532192020da32"
+    },
+    {
+      "file": "publish_schema.json",
+      "valid_json": true,
+      "sha256": "74568a3c4830fd93991573e4343533ffe49fda0b27fc4dc8cbd7ae230d68c819"
+    },
+    {
+      "file": "read_schema.json",
+      "valid_json": true,
+      "sha256": "7e9eea3093f69b98514740266307073b4d1421da0d2bcbd4298b9e5c2562f377"
+    }
+  ],
+  "passed": 42,
+  "total": 42,
+  "shell_check": {
+    "file": "run_examples.sh",
+    "returncode": 0,
+    "log": "execution_logs/run_examples_shell.txt"
+  }
+}

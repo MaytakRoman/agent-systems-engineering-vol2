@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "intent_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "draft_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "draft_revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "recipient": {
+      "type": "string",
+      "minLength": 1
+    },
+    "confirmation_id": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "intent_id",
+    "draft_id",
+    "draft_revision",
+    "recipient",
+    "confirmation_id"
+  ]
+}
