@@ -1,0 +1,1 @@
+{"forbidden_blocked": 5, "lawful_allowed": 1, "negative_control_unauthorized": 1, "proposals": 6}

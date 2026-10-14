@@ -1,0 +1,1 @@
+Граф: ['identify', 'history', 'manual', 'draft', 'save']
